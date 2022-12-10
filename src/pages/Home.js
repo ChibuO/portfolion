@@ -20,8 +20,8 @@ const Home = ({aboutRef, projectsRef}) => {
 
     <div className='home-page'>
       <LandingPage />
-      <AboutPage aboutRef={aboutRef} />
-      {projectImages && <ProjectsPage projectsRef={projectsRef} pages={pages} pages2={pages2} projectMedia={projectImages} teamMedia={teamImages} />}
+      <AboutPage id="about" aboutRef={aboutRef} />
+      {projectImages && <ProjectsPage id="projects" projectsRef={projectsRef} pages={pages} pages2={pages2} projectMedia={projectImages} teamMedia={teamImages} />}
     </div>
 
   )

@@ -58,10 +58,10 @@ function App() {
 
   const scrollDown = (ref) => {
     redirect("/#")
-    // window.scrollTo({
-    //   top: ref.current.offsetTop - 70,
-    //   behavior: 'smooth',
-    // });
+    window.scrollTo({
+      top: ref.current.offsetTop - 70,
+      behavior: 'smooth',
+    });
   };
 
   return (
