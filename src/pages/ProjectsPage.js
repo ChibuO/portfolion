@@ -19,7 +19,7 @@ const ProjectsPage = ({ projectsRef, pages, pages2, projectMedia, teamMedia }) =
           {teamMedia && pages2.map(page => {
             return (
               // <Link  key={page} to={`/${page}`}><ProjectSquare image={projectMedia[page][0]} /></Link>
-              <ProjectSquare image={teamMedia[page][0]} />
+              <ProjectSquare key={page} image={teamMedia[page][0]} />
             )
           })}
         </div>

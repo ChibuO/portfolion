@@ -71,12 +71,12 @@ function App() {
           <NavBar navRef={navRef} moveBar={false} scrollDown={scrollDown} aboutRef={aboutRef} projectsRef={projectsRef} />
           <Routes>
             <Route index element={<Home aboutRef={aboutRef} projectsRef={projectsRef} />} />
-            {/* {projects && pages &&
+            {projects && pages &&
               pages.map(page => {
                 return (
                   <Route key={page} path={`/${page}`} exact element={<ShoppingPage pages={pages} page={page} allmedia={projectImages} projectData={projects[page]} projectMedia={projectImages[page]} />} />
                 )
-              })} */}
+              })}
           </Routes>
           <Footer />
         </ScrollToTop>
