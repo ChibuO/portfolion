@@ -4,6 +4,7 @@
     "name": "Elf-Bot",
     "subtitle": "Santa's Behavior Monitor",
     "tagline": "A robot that follows you around.",
+    "repo": "https://github.com/ChibuO/Elf-Bot",
     "details": [
       "Written in C on a Micro:Bit",
       "Uses a Grid-EYE infrared sensor for tracking",
@@ -19,6 +20,7 @@
     "name": "Money Tracker",
     "subtitle": "Flutter App",
     "tagline": "Keep track of money spent and received.",
+    "repo": "https://github.com/ChibuO/Money-Tracker-App",
     "details": [
       "Created in Android Studio",
       "Written with Flutter",
@@ -33,6 +35,7 @@
     "name": "TV Tracker",
     "subtitle": "React Website + Django",
     "tagline": "A website for logging the shows you've watched, where you watched them from, and whether you've finished them. You can also get current information about a show once it's been added.",
+    "repo": "https://github.com/ChibuO/myshows",
     "details": [
       "React frontend + Django Backend",
       "Uses the TVMaze API to fetch show information"
@@ -47,6 +50,7 @@
     "name": "CRISIS",
     "subtitle": "Assembly Game",
     "tagline": "Save the multiverse in this DC Comics-inspired Asteroid game!",
+    "repo": "https://github.com/ChibuO/CRISIS-Game",
     "details": [
       "Written in IA-32 Assembly",
       "Uses MASM",

@@ -23,14 +23,16 @@ const ShoppingPage = ({ pages, page, allmedia, projectData, projectMedia }) => {
           <div className='project-head'>
             <div className='image-side'>
               <figure className='selected-img-wrap'>
-                {projectMedia && <img src={require("../"+projectMedia[selectedImage].path)} className='selected-img' alt={projectMedia[selectedImage].tag}></img>}
+                {projectMedia && <img src={require("../" + projectMedia[selectedImage].path)} className='selected-img' alt={projectMedia[selectedImage].tag}></img>}
               </figure>
             </div>
             <div className='sell-side'>
               <h1>{`${projectData.name} (${projectData.subtitle})`}</h1>
-              <button className='buy-button'>
-                VISIT THE REPO
-              </button>
+              <a href={projectData.repo} target="blank">
+                <button className='buy-button'>
+                  VISIT THE REPO
+                </button>
+              </a>
               {/* <FaGithub className='git-icon' /> */}
               <div className='info-div'>
                 <p>{projectData.tagline}</p>
