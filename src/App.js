@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { BrowserRouter as Router, HashRouter, Route, Routes, redirect, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, redirect, useNavigate } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 import ShoppingPage from './pages/ShoppingPage';
@@ -58,10 +58,13 @@ function App() {
 
   const scrollDown = (ref) => {
     redirect("/#")
-    window.scrollTo({
+    if (ref.current) {
+      window.scrollTo({
       top: ref.current.offsetTop - 70,
       behavior: 'smooth',
     });
+    }
+    
   };
 
   return (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './NavBar.css'
 
 const NavBar = ({ navRef, moveBar, scrollDown, aboutRef, projectsRef }) => {
