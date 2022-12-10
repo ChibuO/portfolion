@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className='app-div'>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
           <NavBar navRef={navRef} moveBar={false} scrollDown={scrollDown} aboutRef={aboutRef} projectsRef={projectsRef} />
           <Routes>
@@ -80,7 +80,7 @@ function App() {
           </Routes>
           <Footer />
         </ScrollToTop>
-      </HashRouter>
+      </Router>
     </div>
 
   );
