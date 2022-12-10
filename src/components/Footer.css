@@ -1,3 +1,19 @@
+.footer-outer {
+    position: relative;
+}
+
+.footer-bg {
+    background: url("../images/bottomatom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    opacity: .4;
+}
+
 .footer {
     color: var(--color-silver-main);
     display: flex;
@@ -5,18 +21,11 @@
     padding: 0;
     font-family: var(--font-family-main);
     letter-spacing: 2px;
-    background: rgb(32,33,36);
-    /* background: linear-gradient(0deg, rgba(32,33,36,1) 0%, rgba(32,33,36,0) 100%); */
-    background: url(/images/bootomatom.png);
+    position: relative;
+    z-index: 3;
 }
 
-.footer-landing {
-    background: url(/images/bg1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center -3vh;
-    margin-bottom: 100px;
-}
+
 
 .footer h2 {
     padding: 10px 0px;

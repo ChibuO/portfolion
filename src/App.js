@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { BrowserRouter as Router, Route, Routes, redirect, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Routes, redirect, useNavigate } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 import ShoppingPage from './pages/ShoppingPage';
@@ -58,15 +58,15 @@ function App() {
 
   const scrollDown = (ref) => {
     redirect("/#")
-    window.scrollTo({
-      top: ref.current.offsetTop - 70,
-      behavior: 'smooth',
-    });
+    // window.scrollTo({
+    //   top: ref.current.offsetTop - 70,
+    //   behavior: 'smooth',
+    // });
   };
 
   return (
     <div className='app-div'>
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
           <NavBar navRef={navRef} moveBar={false} scrollDown={scrollDown} aboutRef={aboutRef} projectsRef={projectsRef} />
           <Routes>
@@ -80,7 +80,7 @@ function App() {
           </Routes>
           <Footer />
         </ScrollToTop>
-      </Router>
+      </HashRouter>
     </div>
 
   );

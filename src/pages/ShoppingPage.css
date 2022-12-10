@@ -8,6 +8,8 @@
     color: var(--color-spark-gray);
     font-size: var(--font-p-product);
     padding: 10px 0px;
+    position: relative;
+    z-index: 1;
 }
 
 #path {
@@ -20,10 +22,10 @@
     color: var(--color-theme);
 }
 
-.teal-link:hover {
+/* .teal-link:hover {
     color: var(--color-theme-dark);
     cursor: pointer;
-}
+} */
 
 .project-head {
     /* border: 3px solid salmon; */

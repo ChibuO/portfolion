@@ -26,7 +26,6 @@
     ],
     "description": [
       "I created this app back in junior high as a way to keep track of the physical cash in my wallet. The first version was made with MIT App Inventor in 2015. When learning Flutter in 2020, I redesigned it and added the option to track multiple sources.",
-      "On the home page, users can create a new \"account\", or update an existing one. On each account page, users can view past transactions and add new ones. New transactions include the amount, date, whether it is a deposit or withdrawal, and a note to remind themselves where it came from.",
       "Flutter is written in Dart and is used to develop cross-platform applications. I use Hive for storing the accounts and their transactions locally on the device."
     ]
   },
