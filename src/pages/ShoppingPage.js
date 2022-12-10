@@ -13,6 +13,8 @@ const ShoppingPage = ({ pages, page, allmedia, projectData, projectMedia }) => {
     setSelectedImage(index)
   }
 
+  //{projectMedia[selectedImage].path}
+
   return (
     <div className='project-page-outer'>
       {projectData &&
@@ -21,7 +23,7 @@ const ShoppingPage = ({ pages, page, allmedia, projectData, projectMedia }) => {
           <div className='project-head'>
             <div className='image-side'>
               <figure className='selected-img-wrap'>
-                {projectMedia && <img src={projectMedia[selectedImage].path} className='selected-img' alt={projectMedia[selectedImage].tag}></img>}
+                {projectMedia && <img src={require("../"+projectMedia[selectedImage].path)} className='selected-img' alt={projectMedia[selectedImage].tag}></img>}
               </figure>
             </div>
             <div className='sell-side'>

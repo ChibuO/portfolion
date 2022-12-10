@@ -3,7 +3,7 @@
 }
 
 .inner-landing {
-    background: url(/images/bg1.png);
+    background: url("../images/bg1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center -3vh;

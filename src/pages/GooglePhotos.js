@@ -1,11 +1,10 @@
 import React from 'react'
+import long_image from '../images/google/chicago.jpg'
+import tall_image from '../images/google/arch.jpg'
+import square_img1 from '../images/google/nunights.jpg'
+import square_img2 from '../images/google/solar.jpg' 
 
 const GooglePhotos = () => {
-
-    const long_image = process.env.PUBLIC_URL + '/images/google/chicago.jpg'
-    const tall_image =  process.env.PUBLIC_URL + '/images/google/arch.jpg'
-    const square_img1 =  process.env.PUBLIC_URL + '/images/google/nunights.jpg'
-    const square_img2 =  process.env.PUBLIC_URL + '/images/google/solar.jpg'
 
     return (
         <div className='detail-container'>

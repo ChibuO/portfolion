@@ -12,7 +12,7 @@
     "description": [
       "This was the final project for my Microprocessor System Design course. My partner, Caelan Purnama, and I created this robot to run on the Micro:Bit, the microprocessor that the class was taught around.",
       "The robot tracks humans through heat so the infrared sensor captures an 8x8 thermopile array of temperature information. If the center columns of the grid have the highest temperatures, the robot moves forward. If the hottest columns are on the left or the right, the robot turns until the center is the hottest again. The ultrasonic distance sensor is used to stop the robot from bumping into its target.",
-      "It was originally called Stalker Bot because it was ideated around Halloween and fit that monster trope. However, the project was due in December so it was rebranded as Elf-Bot to keep the human-tracking theme."
+      "The project was due in December so it was branded as Elf-Bot to follow the human-monitoring theme."
     ]
   },
   "money_tracker": {

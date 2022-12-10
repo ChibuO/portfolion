@@ -8,7 +8,7 @@ const ProjectSquare = ({ image, onClick }) => {
       {image &&
         <div className='square'>
           <div className='square-img-wrap'>
-            <img src={image.path} className='square-img' alt={image.tag}></img>
+            <img src={require("../"+image.path)} className='square-img' alt={image.tag}></img>
           </div>
           <h2 className='image-name'>{image.ptitle}</h2>
         </div>
