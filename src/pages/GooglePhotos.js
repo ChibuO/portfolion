@@ -2,10 +2,10 @@ import React from 'react'
 
 const GooglePhotos = () => {
 
-    const long_image = '/images/google/chicago.jpg'
-    const tall_image = '/images/google/arch.jpg'
-    const square_img1 = '/images/google/nunights.jpg'
-    const square_img2 = '/images/google/solar.jpg'
+    const long_image = process.env.PUBLIC_URL + '/images/google/chicago.jpg'
+    const tall_image =  process.env.PUBLIC_URL + '/images/google/arch.jpg'
+    const square_img1 =  process.env.PUBLIC_URL + '/images/google/nunights.jpg'
+    const square_img2 =  process.env.PUBLIC_URL + '/images/google/solar.jpg'
 
     return (
         <div className='detail-container'>

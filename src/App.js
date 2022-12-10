@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className='app-div'>
-      <Router basename='/portfolion'>
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop>
           <NavBar navRef={navRef} moveBar={false} scrollDown={scrollDown} aboutRef={aboutRef} projectsRef={projectsRef} />
           <Routes>
